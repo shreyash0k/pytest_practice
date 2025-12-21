@@ -33,7 +33,3 @@ python -m pytest -q
 
 - Select the workspace interpreter: `Cmd+Shift+P` → **Python: Select Interpreter** → choose `.venv/bin/python`.
 - Tests are configured in `.vscode/settings.json` to use pytest and the `tests` folder.
-
----
-
-If you'd like, I can also add a GitHub Actions workflow to run tests on push/pull requests.

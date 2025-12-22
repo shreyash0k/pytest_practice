@@ -2,7 +2,8 @@ import pytest
 from source.my_functions import add,divide
 
 def test_add():
-    assert add(1,2) == 3
+    result = add("i like ","cola")
+    assert result == "i like cola"
 
 def test_divide():
     assert divide(1,2) == 0.5
